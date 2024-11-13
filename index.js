@@ -4,7 +4,7 @@ function clock() {
     var minutes = document.getElementById("minutes");
     var seconds = document.getElementById("seconds");
   
-    var startDate = new Date("September 30, 2022 6:0:00").getTime();
+    var startDate = new Date("November 30, 2024 6:0:00").getTime();
     var now = new Date().getTime();
   
     var Dday = startDate - now;
